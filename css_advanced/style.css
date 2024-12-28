@@ -1,0 +1,384 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: rgb(27, 26, 26);
+    background-color: #f9f9f9;
+   
+}
+
+.background-container{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent), url('pics/background.png') no-repeat center center/cover;
+    
+}
+nav {
+    margin-top: 37px;
+    margin-left: 1037.41px;
+    margin-right: 169px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /*position: fixed;*/
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 50px; /* Space between items */
+  }
+
+  li {
+    display: inline;
+  }
+  nav a {
+    color: white;
+    font-size: 12px;
+  }
+  img{
+    margin-top: 35.02px;
+    margin-left: 168px;
+  }
+
+/*banner*/
+.banner{
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.bann h2{
+    font-size: 120px;
+    margin-top: 155.52px; 
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+.span{
+    display: flex;
+    gap: 59px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 38px;
+}
+span{
+    font-size: 16px;
+    color: white;
+}
+.banner button{
+    background-color: #C271FF;
+    width: 162px;
+    height: 44px;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 168px;
+    
+}
+.learn{
+    margin-top: 0;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 87px;
+    color: white;
+}
+.purple{
+    color: #C271FF;
+    font-size: inherit;
+    font-weight: bold;
+}
+
+.con {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 98px;
+} 
+    
+.box { 
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+
+     }
+.con img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        
+      }
+.con h3{
+        font-size: 18px;
+        color: white;
+      }
+.con p{
+        font-size: 16px;
+        color: white;
+      }
+ 
+/*qoute*/
+.quote{
+    background-color: #C271FF;
+    margin-top: 0;
+    padding-top: 10px;
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: center;
+    color: white;
+}
+.quote img{
+    margin-left: 260px;
+    width: 160px;
+    height: 160px;
+    margin-top: 108px;
+    object-fit: cover;
+    margin-bottom: 124px;
+
+}
+.content{
+    font-weight: normal;
+    margin-bottom: 124px;
+    margin-top: 110px;
+    margin-left: 53px;
+    margin-right: 237px;
+}
+.intro{
+    font-size: 22px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 22px;
+}
+.title{
+    font-style: italic;
+    font-size: 22px;
+}
+
+/*videos*/
+.videos{
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    margin-left: 0;
+}
+
+.lear{
+    margin-top: 0;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 87px;
+    color: black;
+    margin-top: 87px;
+}
+.lear h2{
+    text-align: center;
+    
+}
+.colorpurp{
+    color: #C271FF;
+    font-size: inherit;
+    font-weight: bold;
+}
+
+.con2 {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    /* gap: 10px; */
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+    margin-bottom: 87px;
+    margin-top: 75px;
+}
+.con2 h2{
+    font-size: 16px;
+    text-align: left;
+}
+.con2 p{
+    font-size: 14px;
+    margin: 0;
+    justify-content: left;
+    margin-left: 0;
+   
+    
+}
+.box1 { 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+
+}
+.con2 .img1 {
+    width: 255px;
+    height: 155px;
+    display: block;
+    margin: 0 auto;
+   
+  }
+.con2 .align{
+    width: 255px;
+    height: 155px;
+    display: block;
+    padding: 10px;
+
+}
+.box1 p { 
+    font-size: 14px; 
+    color: #666; 
+    margin: 5px 0; 
+    display: flex; 
+    align-items: center;
+    margin-right: 13px;
+}
+.box1 img { 
+    margin-left: 0;
+}
+.fil{
+    align-items: center;
+   display: block;
+}
+.fil p{
+    margin-left: 15px;
+    text-align: right;
+    margin-top: 0;
+   
+}
+ 
+
+
+
+/*membership*/
+.membership{
+    background-color: #071629;
+    color: white;
+    text-align: center;
+    
+}
+.member {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 29px; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 85px;
+}
+.member img{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    
+}
+.membership span{
+    margin-top: 70px;
+    color: #C271FF;
+    font-size: inherit;
+}
+.membership h2{
+    padding-top: 70px;
+    margin: 70px;
+    margin-bottom: 58px;
+}
+.membership button{
+    background-color: #C271FF;
+    width: 162px;
+    height: 44px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 52px;
+}
+.membership p{
+    font-size: 14px;
+}
+.membership h3{
+    font-size: 18px;
+}
+
+/*FAQ*/
+.head h2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+
+}
+
+.work {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns per row */
+    gap: 220px; 
+    margin-left: 249px;
+    margin-right: 271px;
+    margin-bottom: 84px;
+}
+.work p{
+    font-size: 14px;
+}
+.work h2{
+    font-size: 16px;
+}
+.sep{
+    margin-bottom: 74px;
+}
+
+
+
+
+
+
+/*footer*/
+footer{
+    padding: 10px;
+    background-color: #071629;
+}
+footer .row {
+    display: flex;
+    justify-content: space-between; /* Align the logo and social icons */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  footer .log img.logo {
+    width: 150px; /* Adjust the size of the logo */
+    margin-top: 95px;
+  }
+  
+  footer .social {
+    display: flex; /* Align images horizontally */
+    gap: 10px; /* Controls the spacing between social media icons */
+    margin-right: 240px;
+    margin-top: 90px;
+  }
+  
+  footer .social img {
+    width: 30px; /* Set a consistent size for social icons */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove padding */
+    display: block; /* Avoid spacing caused by inline-block elements */
+  }
+  
+  footer p {
+    margin-top: 70px;
+    font-size: 14px;
+    color: #9aa0a6; /* A lighter shade for the copyright text */
+    text-align: center;
+    margin-bottom: 39px;
+  }
