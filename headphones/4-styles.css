@@ -1,0 +1,364 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: rgb(27, 26, 26);
+    background-color: #f9f9f9;
+    
+}
+
+.backgroundC{
+    background: url(images/headphones_hero_1.jpg) no-repeat center center/cover fixed; 
+}
+header img{
+   margin-top: 40px;
+   width: 150px;
+   height: 30px;
+   margin-left: 120px; 
+}
+
+nav{
+    margin-right: 50px;
+    gap: 20px;
+    margin-top: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+nav:hover {
+    color: #FF6565;
+    
+
+}
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+    list-style: none;
+}
+li{
+    display: inline;
+    color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+/*main*/
+
+.headtag{
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    color: white;
+
+}
+.headtag h1{
+    text-align: center;
+    margin-top: 170px;
+}
+.headtag p{
+    margin-top: 0;
+}
+
+.btn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.btn button{
+    width: 160px;
+    height: 40px;
+    background: #FF6565;
+    border-radius: 20px;
+    color: white;
+}
+button:hover {
+    color: #FF6565;
+    opacity: 0.9;
+}
+
+.descript{
+   margin: 0;
+    color: white;
+    text-align: center;
+    padding: 30px;
+  
+}
+
+
+/* what we do...*/
+.wedo{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+.topsec h2{
+    margin-top: 70px;
+    
+}
+.topsec p{
+    margin-top: 40px;
+}
+.icon{
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 29px; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+
+
+
+
+
+/* our result*/
+.result{
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    background: url(images/headphones_hero_2.jpg) no-repeat center center/cover; 
+    color: white;
+
+}
+.resultp h2{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-weight: light;
+}
+.resultp p{
+margin-top: 60px;
+    margin-bottom: 30px;
+}
+ .reper1{
+    background: url(images/pentagone.png) no-repeat center center/cover;
+    background-size: 165px;
+    padding: 30px;
+}   
+.reper2{
+    background: url(images/pentagone.png) no-repeat center center/cover;
+    background-size: 165px;
+    padding: 30px;
+}   
+.reper3{
+    background: url(images/pentagone.png) no-repeat center center/cover;
+    background-size: 165px;
+    padding: 30px;
+}   
+.reper4{
+    background: url(images/pentagone.png) no-repeat center center/cover;
+    background-size: 165px;
+    padding: 30px;
+}   
+.reper{
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 15px; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+
+
+
+
+
+
+
+/*contact us*/
+.form{
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+
+}
+.form h2{
+    margin-top: 110px;
+    text-align: center;
+}
+.form-container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.form input{
+    border-top: 1px;
+    margin-top: 20px;
+    width: 500px;
+    height: 30px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form button{
+    border-radius: 20px;
+    background: #FF6565;
+    height: 50px;
+    width: 160px;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 130px;
+    
+}
+
+
+
+/*footer*/
+footer{
+    padding: 10px;
+    background-color: #071629;
+}
+footer .row {
+    display: flex;
+    justify-content: space-between; /* Align the logo and social icons */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  footer .log img.logo {
+    width: 150px; /* Adjust the size of the logo */
+    margin-top: 95px;
+    margin-left: 90px;
+  }
+  
+  footer .social {
+    display: flex; /* Align images horizontally */
+    gap: 10px; /* Controls the spacing between social media icons */
+    margin-right: 240px;
+    margin-top: 90px;
+  }
+  
+  footer .social img {
+    width: 30px; /* Set a consistent size for social icons */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove padding */
+    display: block; /* Avoid spacing caused by inline-block elements */
+  }
+  
+  footer p {
+    margin-top: 70px;
+    font-size: 14px;
+    color: #9aa0a6; /* A lighter shade for the copyright text */
+    text-align: center;
+    margin-bottom: 39px;
+  }
+
+  @media (min-width: 1025px) {
+    header img {
+        margin-left: 120px;
+        width: 150px;
+        height: 30px;
+    }
+
+    nav {
+        margin-right: 50px;
+        gap: 20px;
+    }
+
+    .icon {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .reper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .form input {
+        width: 500px;
+    }
+}
+
+/* Medium Screens (Tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    header img {
+        margin-left: 50px;
+        width: 120px;
+        height: 25px;
+    }
+
+    nav {
+        margin-right: 20px;
+        gap: 10px;
+    }
+
+    .icon {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .reper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .form input {
+        width: 400px;
+    }
+}
+
+/* Small Screens (Mobile) */
+@media (max-width: 767px) {
+    header img {
+        margin: 0 auto;
+        display: block;
+        width: 100px;
+        height: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .icon {
+        grid-template-columns: 1fr;
+    }
+
+    .reper {
+        grid-template-columns: 1fr;
+    }
+
+    .form input {
+        width: 90%;
+    }
+
+    footer .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .log img.logo {
+        margin: 0 auto;
+    }
+
+    footer .social {
+        justify-content: center;
+        margin: 10px 0;
+    }
+}
