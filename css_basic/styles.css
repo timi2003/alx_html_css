@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background: rgb(62, 210, 101) url(backiee-86829.jpg) no-repeat center;
+    background-size: cover;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    color: #cfe0df;
+}
+
+article{
+    flex: 2;
+    overflow-y: auto;
+
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+
+}
+header{
+    
+    color: #341010;
+}
+
+header.nav{
+    color: rgb(8, 161, 153);
+    text-align: right;
+}
+.logo{
+    font-size: 4rem; 
+    color: white; 
+    margin-right: 30px;
+    
+}
